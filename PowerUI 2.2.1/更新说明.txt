@@ -1,0 +1,64 @@
+PowerUI QQ技术交流群：303560219
+by gaoqiangz@msn.com
+---------------------
+PowerUI 2.2.1(2015-07-07)：
+1.增加u_cst_layout布局控件
+2.增加TabControl标签停靠动画
+3.增加SplitContainer分割条鼠标双击折叠/展开属性(#DBClkOnSplitBar)
+4.增加字体缓存
+5.细节美化
+6.一些BUG修复
+---------------------
+PowerUI 2.2(2015-06-13)：
+1.新增标准TreeView控件
+2.新增标准VScrollBar/HScrollBar控件
+3.所有PowerUI的系统控件（包括MDI窗口与普通窗口以及DataWindow）都美化了滚动条，允许用户修改其大小和颜色（!!!）
+4.一些BUG修复
+---------------------
+PowerUI 2.1(2015-06-01)：
+1.SplitContainer新增标题栏功能
+2.SplitContainer新增of_Reset函数重置控件（与of_ResetLayout不同）,Panel增加of_SetMargin（原of_SetBorderMargin）/of_SetPadding等函数
+3.新增APNG动画图像支持
+4.窗口状态栏与标题栏图像支持设置为动画图像
+5.重新设计了工具栏隐藏下拉菜单，与工具栏行为与外观一致
+6.弹出菜单（n_cst_popupmenu）支持独立的事件响应，同时保留原来的用法与功能（!!!）
+7.TabControl支持添加窗口对象（感谢Coffee提供的改进）
+8.所有支持添加菜单对象的控件都可以以类名的方式添加菜单，也可以添加未初始化的对象，不必提前创建对象，控件将会自己管理菜单的生命期
+9.所有控件的文本对齐功能被移到对应的theme对象下统一控制
+10.窗口状态栏子项始终垂直居中
+11.一些BUG修复
+---------------------
+PowerUI 2.0.1(2015-04-24)：
+1.SplitContainer新增SaveLayout/LoadLayout函数，用于保存当前布局信息和恢复布局信息
+2.调整SplitContainer折叠按钮的点击区域，提高鼠标命中率
+3.一些小BUG修复
+---------------------
+PowerUI 2.0(2015-04-20)：
+1.新增PBR资源协议（支持从PB编译的PBD/PBL/DLL/EXE中加载图像，HTMLayout暂不支持）
+2.新增TaskPanelBar控件
+3.新增SplitContainer控件
+4.新增标准CheckBox控件
+5.新增标准RadioBox控件
+6.新增标准SingleLineEdit控件
+7.新增标准MultiLineEdit控件
+8.新增标准EditMask控件
+9.新增了更多DEMO
+10.新增窗口菜单对象（任何类型的窗口都能拥有菜单栏）
+11.MDI窗口支持
+12.TabControl标签浮动支持
+13.TabControl/ShortCutBar/ToolBarStrip动态加载对象支持（任意控件）
+14.自定义各圆角边框半径大小支持
+15.RibbonBar Panel的缩放顺序直接在Panel对象中定义
+16.RibbonBar/TaskPanelBar的CheckBox/RadioBox的行为按标准控件重写
+17.优化RibbonBar的加载速度
+18.每个控件都提供了对应的绘制背景的事件，允许用户画自己的背景（OnEraseBkgnd/OnNcEraseBkgnd）
+19.重新封装了PopupMenu，修复了底层的BUG
+20.重新封装了Font对象，支持设置阴影风格（普通、发光）
+21.精简了用户对象
+22.解决修改窗体代码后需要完全编译的问题（!!!）
+23.主题化DataWindow边框和内部线条颜色
+24.解决PB12.6兼容性问题
+25.解决PB9下HTMLayout乱码及崩溃的BUG
+26.优化了部分控件的性能，取消了部分控件的属性或函数
+27.修复了各种BUG
+28.更多细节将在以后的文档中给出
